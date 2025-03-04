@@ -28,8 +28,8 @@ userCtrl.checkUserData = async (req, res) => {
 
             const nuevasPropiedades = [
                 { _id: new mongoose.Types.ObjectId("67c4adfefaa027dd2183a129"), alquilado: 0, inquilino: null, tiempo_contrato: null, mobiliario: [new mongoose.Types.ObjectId("67c4c52afaa027dd2183a12c")] },
-                { _id: new mongoose.Types.ObjectId("67c3ddb9faa027dd2183a102"), alquilado: 0, inquilino: null, tiempo_contrato: null, mobiliario: [new mongoose.Types.ObjectId("67c4c52afaa027dd2183a12c")] },
-                { _id: new mongoose.Types.ObjectId("67c3ddb9faa027dd2183a104"), alquilado: 0, inquilino: null, tiempo_contrato: null, mobiliario: [new mongoose.Types.ObjectId("67c4c52afaa027dd2183a12c")] }
+                { _id: new mongoose.Types.ObjectId("67c4adfefaa027dd2183a129"), alquilado: 0, inquilino: null, tiempo_contrato: null, mobiliario: [new mongoose.Types.ObjectId("67c4c52afaa027dd2183a12c")] },
+                { _id: new mongoose.Types.ObjectId("67c4adfefaa027dd2183a129"), alquilado: 0, inquilino: null, tiempo_contrato: null, mobiliario: [new mongoose.Types.ObjectId("67c4c52afaa027dd2183a12c")] }
             ];
 
             // Guardar en la base de datos
